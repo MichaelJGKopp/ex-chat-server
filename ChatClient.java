@@ -17,7 +17,7 @@ public class ChatClient {
 
   public void receiveMsg() throws InterruptedException {
     Thread.sleep(random.nextInt(5, 100));
-    System.out.printf("%-13s %-25s %s%n", clientName, "<< received a message",
+    System.out.printf("%-13s %-25s %s%n", clientName, ">> received a message",
       "(" + Thread.currentThread() + ")");
   }
 
